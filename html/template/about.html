@@ -1,0 +1,1372 @@
+<!DOCTYPE html>
+<html lang="zxx" dir="lrt">
+
+<head>
+    <script src="https://kit.fontawesome.com/2976eaa474.js" crossorigin="anonymous"></script>
+    <script>
+        const setTheme = (theme) => {
+            theme ??= localStorage.theme || "light";
+            document.documentElement.dataset.theme = theme;
+            localStorage.theme = theme;
+        };
+        setTheme();
+    </script>
+    <meta logo="assets/images/logo/logo.png">
+    <meta white-logo="assets/images/logo/logo-white.png">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description"
+        content="Travello - Multipurpose travel and tour booking.These template is suitable for  travel agency , tour, travel website , tour operator , tourism , booking  trip or adventure website. ">
+    <meta name="keywords"
+        content="travel, trip booking,tour, hotel, tour guide, tourism, blog, flight, travel agency, tourism agency, accommodation, tour website">
+    <meta name="author" content="inittheme">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Multipurpose travel and tour booking">
+    <meta property="og:site_name" content="Travello">
+    <meta property="og:url" content="https://inittheme.com">
+    <meta property="og:image" content="https://inittheme.com/images/selfie.jpg">
+    <meta property="og:description" content="Multipurpose travel and tour booking, multipurpose template">
+    <meta name="twitter:title" content="Multipurpose travel and tour booking">
+    <meta name="twitter:description" content="Multipurpose travel and tour booking, multipurpose template">
+    <meta name="twitter:image" content="https://twitter.com/inittheme/photo">
+    <meta name="twitter:card" content="summary">
+    <!-- Google site verification -->
+    <meta name="google-site-verification" content="...">
+    <meta name="facebook-domain-verification" content="...">
+    <meta name="csrf-token" content="...">
+    <meta name="currency" content="$">
+    <!-- Title -->
+    <title>Multipurpose travel and tour booking </title>
+    <link rel="icon" type="image/x-icon" sizes="20x20" href="assets/images/icon/favicon.png">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-5.3.0.min.css">
+    <!-- Fonts & icon -->
+    <link rel="stylesheet" type="text/css" href="assets/css/remixicon.css">
+    <!-- Plugin -->
+    <link rel="stylesheet" type="text/css" href="assets/css/plugin.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main-style.css">
+    <!-- RTL CSS::When Need RTL Uncomments File -->
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/rtl.css"> -->
+</head>
+
+<body>
+    <header>
+        <div class="header-area">
+            <div class="main-header">
+                <!-- Header Top -->
+                <div class="header-top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="top-menu-wrapper d-flex align-items-center justify-content-between">
+                                    <!-- Top Left Side -->
+                                    <div class="top-header-left d-flex align-items-center">
+                                        <!-- Logo-->
+                                        <div class="logo">
+                                            <a href="index.html"><img src="assets/images/logo/logo-transparent.png"
+                                                    alt="logo" height="100"></a>
+                                        </div>
+                                        <!-- search box -->
+                                        <!-- <div class="search-box search-bar d-none d-lg-block">
+                                            <div class="header-search">
+                                                <span class="pera">Destination, attraction</span>
+                                                <div class="search-icon">
+                                                    <i class="ri-search-line"></i>
+                                                </div>
+                                                <kbd class="light-text">
+                                                    <abbr title="Ctrl">Ctrl +</abbr> k
+                                                </kbd>
+                                            </div>
+                                        </div> -->
+                                        <!-- Mobile Device Seach & Theme Mode -->
+                                        <div class="search-header-position d-block d-lg-none">
+                                            <div class="d-flex gap-15">
+                                                <!-- <div class="search-bar">
+                                                    <a href="javascript:void(0)" class="rounded-btn">
+                                                        <i class="ri-search-line"></i>
+                                                    </a>
+                                                </div> -->
+                                                <!-- Theme Mode -->
+                                                <button class="ToggleThemeButton change-theme-mode m-0 p-0 border-0">
+                                                    <i class="ri-sun-line"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <!-- / Mobile Device Seach & Theme Mode-->
+                                    </div>
+                                    <!--Top Right Side -->
+                                    <div class="top-header-right">
+                                        <!-- contact us -->
+                                        <div class="contact-section">
+                                            <div class="circle-primary-sm">
+                                                <i class="ri-mail-line"></i>
+                                            </div>
+                                            <div class="info">
+                                                <a href="mailto:m.hasballa1984@gmail.com">
+                                                    <p class="pera">Email</p>
+                                                </a>
+                                                <h4 class="title">
+                                                    <a
+                                                        href="mailto:m.hasballa1984@gmail.com">m.hasballa1984@gmail.com</a>
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="contact-section">
+                                            <div class="circle-primary-sm">
+                                                <i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i>
+                                            </div>
+                                            <div class="info">
+                                                <p class="pera">Whatsapp</p>
+                                                <h4 class="title">
+                                                    <a href="https://wa.me/+021067798590">+20 106 779 8590</a>
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Header Bottom -->
+                <div class="header-bottom header-sticky">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="menu-wrapper">
+                                    <!-- Main-menu for desktop -->
+                                    <div class="main-menu d-none d-lg-block">
+                                        <nav>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <ul class="listing" id="navigation">
+                                                    <li class="single-list">
+                                                        <a href="index-two.html" class="single">Start</a>
+                                                    </li>
+                                                    <li class="single-list ">
+                                                        <a href="about.html" class="single">Über mich</a>
+                                                    </li>
+                                                    <li class="single-list">
+                                                        <a href="destination.html" class="single">Reiseziele</a>
+                                                    </li>
+                                                    <li class="single-list">
+                                                        <a href="contact.html" class="single">Kontakt</a>
+                                                    </li>
+                                                    <li class="d-block d-lg-none">
+                                                        <div class="header-right pl-15">
+                                                            <div class="d-flex align-items-center gap-12">
+                                                                <div class="lang">
+                                                                    <i class="ri-global-line"></i>
+                                                                </div>
+                                                                <div class="divider gradient-divider"></div>
+                                                                <div class="money">
+                                                                    <p class="pera">EUR</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <div class="header-right">
+                                                    <div class="d-flex align-items-center gap-12">
+                                                        <div class="lang">
+                                                            <i class="ri-global-line"></i>
+                                                        </div>
+                                                        <div class="divider gradient-divider"></div>
+                                                        <div class="money">
+                                                            <p class="pera">EUR</p>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Theme Mode -->
+                                                    <li class="single-list">
+                                                        <button
+                                                            class="ToggleThemeButton change-theme-mode m-0 p-0 border-0">
+                                                            <i class="ri-sun-line"></i>
+                                                        </button>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                        </nav>
+                                    </div>
+                                </div>
+                                <!-- Mobile Menu -->
+                                <div class="div">
+                                    <div class="mobile_menu d-block d-lg-none"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Search box -->
+            <div class="search-container">
+                <div class="top-section">
+                    <div class="search-icon">
+                        <i class="ri-search-line"></i>
+                    </div>
+                    <div class="modal-search-box">
+                        <input type="text" id="searchField" class="search-field"
+                            placeholder="Destination, Agency, Country">
+                        <button id="closeSearch" class="close-search-btn">
+                            <kbd class="light-text"> ESC </kbd>
+                        </button>
+                    </div>
+                </div>
+                <div class="body-section">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <ul class="listing">
+                                <li>
+                                    <h4 class="search-label">Recent</h4>
+                                </li>
+                                <li class="single-list">
+                                    <a href="tour-details.html">
+                                        <div class="search-flex">
+                                            <div class="content-img">
+                                                <img src="assets/images/gallery/search-img-1.jpeg" alt="travello">
+                                            </div>
+                                            <div class="content">
+                                                <h4 class="title line-clamp-1">
+                                                    Dubai by Night City Tour with Fountain show
+                                                </h4>
+                                                <p class="pera line-clamp-2">
+                                                    Wonderful evening escapade starting at Madinat
+                                                    Jumeirah to the musical fountains to see another.
+                                                    Wonderful evening escapade starting at Madinat
+                                                    Jumeirah to the musical fountains to see another
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="single-list">
+                                    <a href="tour-details.html">
+                                        <div class="search-flex">
+                                            <div class="content-img">
+                                                <img src="assets/images/gallery/search-img-2.jpeg" alt="travello">
+                                            </div>
+                                            <div class="content">
+                                                <h4 class="title line-clamp-1">
+                                                    Dubai: Premium Red Dunes, Camels, Stargazing & 5*
+                                                    BBQ at Al Khayma Camp™️
+                                                </h4>
+                                                <p class="pera line-clamp-2">
+                                                    Give a great end to your day in Dubai with our
+                                                    premium evening Red Dune Desert Safari. Give a great
+                                                    end to your day in Dubai with our premium evening
+                                                    Red Dune Desert Safari.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="single-list">
+                                    <a href="tour-details.html">
+                                        <div class="search-flex">
+                                            <div class="content-img">
+                                                <img src="assets/images/gallery/search-img-3.jpeg" alt="travello">
+                                            </div>
+                                            <div class="content">
+                                                <h4 class="title line-clamp-1">
+                                                    Admission to Global Village in Dubai
+                                                </h4>
+                                                <p class="pera line-clamp-2">
+                                                    Admission to Dubai’s biggest, multicultural festival
+                                                    park with replicas of iconic landmarks. Admission to
+                                                    Dubai’s biggest, multicultural festival park with
+                                                    replicas of iconic landmarks
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <h4 class="search-label">Recent</h4>
+                                </li>
+                                <li class="single-list">
+                                    <a href="tour-details.html">
+                                        <div class="search-flex">
+                                            <div class="content-img">
+                                                <img src="assets/images/gallery/search-img-1.jpeg" alt="travello">
+                                            </div>
+                                            <div class="content">
+                                                <h4 class="title line-clamp-1">
+                                                    Dubai by Night City Tour with Fountain show
+                                                </h4>
+                                                <p class="pera line-clamp-2">
+                                                    Wonderful evening escapade starting at Madinat
+                                                    Jumeirah to the musical fountains to see another.
+                                                    Wonderful evening escapade starting at Madinat
+                                                    Jumeirah to the musical fountains to see another
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="single-list">
+                                    <a href="tour-details.html">
+                                        <div class="search-flex">
+                                            <div class="content-img">
+                                                <img src="assets/images/gallery/search-img-2.jpeg" alt="travello">
+                                            </div>
+                                            <div class="content">
+                                                <h4 class="title line-clamp-1">
+                                                    Dubai: Premium Red Dunes, Camels, Stargazing & 5*
+                                                    BBQ at Al Khayma Camp™️
+                                                </h4>
+                                                <p class="pera line-clamp-2">
+                                                    Give a great end to your day in Dubai with our
+                                                    premium evening Red Dune Desert Safari. Give a great
+                                                    end to your day in Dubai with our premium evening
+                                                    Red Dune Desert Safari.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="single-list">
+                                    <a href="tour-details.html">
+                                        <div class="search-flex">
+                                            <div class="content-img">
+                                                <img src="assets/images/gallery/search-img-3.jpeg" alt="travello">
+                                            </div>
+                                            <div class="content">
+                                                <h4 class="title line-clamp-1">
+                                                    Admission to Global Village in Dubai
+                                                </h4>
+                                                <p class="pera line-clamp-2">
+                                                    Admission to Dubai’s biggest, multicultural festival
+                                                    park with replicas of iconic landmarks. Admission to
+                                                    Dubai’s biggest, multicultural festival park with
+                                                    replicas of iconic landmarks
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="right-section" id="filterMenu">
+                                <h4 class="title">Filter Options</h4>
+                                <!-- List of Filter -->
+                                <ul class="listing">
+                                    <li>
+                                        <h4 class="search-label">Post Type</h4>
+                                    </li>
+                                    <li class="single-list">
+                                        <div class="d-flex align-items-center gap-8">
+                                            <label class="checkbox-label">
+                                                <input class="checkbox-style" type="checkbox" value="remember"
+                                                    name="remember">
+                                                <span class="checkmark-style"></span>
+                                            </label>
+                                            <div class="content">
+                                                <p class="pera">Posts (3)</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="single-list">
+                                        <div class="d-flex align-items-center gap-8">
+                                            <label class="checkbox-label">
+                                                <input class="checkbox-style" type="checkbox" value="remember"
+                                                    name="remember">
+                                                <span class="checkmark-style"></span>
+                                            </label>
+                                            <div class="content">
+                                                <p class="pera">Posts (3)</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="single-list">
+                                        <div class="d-flex align-items-center gap-8">
+                                            <label class="checkbox-label">
+                                                <input class="checkbox-style" type="checkbox" value="remember"
+                                                    name="remember">
+                                                <span class="checkmark-style"></span>
+                                            </label>
+                                            <div class="content">
+                                                <p class="pera">Links (44)</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="single-list">
+                                        <div class="d-flex align-items-center gap-8">
+                                            <label class="checkbox-label">
+                                                <input class="checkbox-style" type="checkbox" value="remember"
+                                                    name="remember">
+                                                <span class="checkmark-style"></span>
+                                            </label>
+                                            <div class="content">
+                                                <p class="pera">Blogs (23)</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <!-- List of Filter -->
+                                <ul class="listing">
+                                    <li>
+                                        <h4 class="search-label">Categories</h4>
+                                    </li>
+                                    <li class="single-list">
+                                        <div class="d-flex align-items-center gap-8">
+                                            <label class="checkbox-label">
+                                                <input class="checkbox-style" type="checkbox" value="remember"
+                                                    name="remember">
+                                                <span class="checkmark-style"></span>
+                                            </label>
+                                            <div class="content">
+                                                <p class="pera">Articles (3)</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="single-list">
+                                        <div class="d-flex align-items-center gap-8">
+                                            <label class="checkbox-label">
+                                                <input class="checkbox-style" type="checkbox" value="remember"
+                                                    name="remember">
+                                                <span class="checkmark-style"></span>
+                                            </label>
+                                            <div class="content">
+                                                <p class="pera">Poll (3)</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="single-list">
+                                        <div class="d-flex align-items-center gap-8">
+                                            <label class="checkbox-label">
+                                                <input class="checkbox-style" type="checkbox" value="remember"
+                                                    name="remember">
+                                                <span class="checkmark-style"></span>
+                                            </label>
+                                            <div class="content">
+                                                <p class="pera">Article (44)</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="single-list">
+                                        <div class="d-flex align-items-center gap-8">
+                                            <label class="checkbox-label">
+                                                <input class="checkbox-style" type="checkbox" value="remember"
+                                                    name="remember">
+                                                <span class="checkmark-style"></span>
+                                            </label>
+                                            <div class="content">
+                                                <p class="pera">Blogs (23)</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <!-- List of Filter -->
+                                <ul class="listing">
+                                    <li>
+                                        <h4 class="search-label">Travel</h4>
+                                    </li>
+                                    <li class="single-list">
+                                        <div class="d-flex align-items-center gap-8">
+                                            <label class="checkbox-label">
+                                                <input class="checkbox-style" type="checkbox" value="remember"
+                                                    name="remember">
+                                                <span class="checkmark-style"></span>
+                                            </label>
+                                            <div class="content">
+                                                <p class="pera">Articles (3)</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="single-list">
+                                        <div class="d-flex align-items-center gap-8">
+                                            <label class="checkbox-label">
+                                                <input class="checkbox-style" type="checkbox" value="remember"
+                                                    name="remember">
+                                                <span class="checkmark-style"></span>
+                                            </label>
+                                            <div class="content">
+                                                <p class="pera">Poll (3)</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="single-list">
+                                        <div class="d-flex align-items-center gap-8">
+                                            <label class="checkbox-label">
+                                                <input class="checkbox-style" type="checkbox" value="remember"
+                                                    name="remember">
+                                                <span class="checkmark-style"></span>
+                                            </label>
+                                            <div class="content">
+                                                <p class="pera">Article (44)</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="single-list">
+                                        <div class="d-flex align-items-center gap-8">
+                                            <label class="checkbox-label">
+                                                <input class="checkbox-style" type="checkbox" value="remember"
+                                                    name="remember">
+                                                <span class="checkmark-style"></span>
+                                            </label>
+                                            <div class="content">
+                                                <p class="pera">Blogs (23)</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="div">
+                            <div class="filter_menu"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- / End-Search -->
+        </div>
+    </header>
+    <main>
+        <!-- Breadcrumbs S t a r t -->
+        <section class="breadcrumbs-area breadcrumb-bg">
+            <div class="container">
+                <h1 class="title wow fadeInUp" data-wow-delay="0.0s">Über mich</h1>
+                <div class="breadcrumb-text">
+                    <nav aria-label="breadcrumb" class="breadcrumb-nav wow fadeInUp" data-wow-delay="0.1s">
+                        <ul class="breadcrumb listing">
+                            <li class="breadcrumb-item single-list"><a href="index-two.html" class="single">Start</a>
+                            </li>
+                            <li class="breadcrumb-item single-list" aria-current="page">
+                                <a href="javascript:void(0)" class="single active">Über mich</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+        </section>
+        <!--/ End-of Breadcrumbs-->
+
+        <!-- About Me area S t a r t -->
+        <section class="about-area">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-xl-5 col-lg-6">
+                        <div class="section-title mx-430 mb-30 w-md-100">
+                            <span class="highlights fancy-font font-400">Über mich</span>
+                            <h4 class="title">
+                                Erleben Sie Ägypten wie nie zuvor – unvergessliche Abenteuer warten auf Sie!
+                            </h4>
+                            <p class="pera">
+                                Ich bin Mahmoud, Ihr persönlicher Reiseveranstalter in Hurghada und Marsa Alam. Seit
+                                2008 habe ich in Hurghada begonnen und bin von einem Reiseverkäufer Schritt für Schritt
+                                zu meinem eigenen Unternehmen gewachsen.
+                            </p>
+                            <p class="pera">
+                                Mit über 1000 zufriedenen Kunden und mehr als 15 Jahren Erfahrung in der Durchführung
+                                von Bootstouren, Safaris sowie historischen Reisen nach Kairo, Luxor und Assuan biete
+                                ich Ihnen unvergessliche Erlebnisse.
+                            </p>
+                            <p class="pera"></p>
+                            Ich lebe zwischen Deutschland und Ägypten, derzeit in Hurghada, und freue mich, Ihnen bei
+                            Fragen oder Buchungen zur Seite zu stehen.
+                            </p>
+                            <p class="pera"></p>
+                            Meine Reisen zeichnen sich durch einen besonderen Charakter aus und sind ideal für Familien
+                            und Paare, die die wahre Atmosphäre Ägyptens sowie seine Kultur und das Meer genießen
+                            möchten.
+                            </p>
+                            <p class="pera"></p>
+                            Kontaktieren Sie mich, um Ihre Traumreise zu planen!
+                            </p>
+                            <div class="section-button mt-27 d-inline-block">
+                            </div>
+                            <div class="about-imp-link mt-40">
+                                <div class="icon">
+                                    <i class="ri-user-line"></i>
+                                </div>
+                                <div class="content">
+                                    <p class="pera font-16">
+                                        Über
+                                        <span class="font-700">1000</span> zufriedene Kunden über die Jahre!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-6">
+                        <div class="about-count-section about-count-before-bg">
+                            <div class="banner">
+                                <img src="assets/images/about/about-me.png" alt="travello">
+                            </div>
+                            <div class="all-count-list">
+                                <div class="details">
+                                    <!-- <h4 class="count">150k</h4>
+                                    <p class="pera">Happy Traveler</p> -->
+                                </div>
+                                <!-- <div class="divider"></div> -->
+                                <div class="details">
+                                    <!-- <h4 class="count">95.7%</h4>
+                                    <p class="pera">Satisfaction Rate</p> -->
+                                </div>
+                                <!-- <div class="divider"></div> -->
+                                <div class="details">
+                                    <!-- <h4 class="count">5000+</h4>
+                                    <p class="pera">Tour Completed</p> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/ End-of About Me-->
+
+        <!-- Pricing S t a r t -->
+        <!-- <section class="pricing-area pb-0 section-bg-before-two">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-7 col-lg-7">
+                        <div class="section-title text-center mx-605 mx-auto position-relative">
+                            <span class="highlights-primary">Package Pricing Plan</span>
+                            <h4 class=" title">
+                                Simply Choose The Pricing Plan That Fits You Best
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="position-relative">
+                    <div class="row g-4">
+                        <div class="col-xl-4 col-lg-6 col-md-6">
+                            <div class="price-card h-calc wow fadeInUp" data-wow-delay="0.0s">
+                                <div class="price-header">
+                                    <div class="d-flex gap-7 mb-2">
+                                        <h4 class="title">Basic</h4>
+                                        <div class="price-badge d-none">popular</div>
+                                    </div>
+                                    <p class="pera">Best for personal and basic needs</p>
+                                </div>
+                                <div class="price-tag-section">
+                                    <div class="price-tag">
+                                        <h4 class="title">$10</h4>
+                                        <p class="pera">One-time payment</p>
+                                    </div>
+                                </div>
+                                <ul class="feature-points">
+                                    <li class="feature-point">
+                                        <div class="tick-icon">
+                                            <i class="ri-check-line"></i>
+                                        </div>
+                                        <p class="pera">20+ Partners</p>
+                                    </li>
+                                    <li class="feature-point">
+                                        <div class="tick-icon">
+                                            <i class="ri-check-line"></i>
+                                        </div>
+                                        <p class="pera">Mass Messaging</p>
+                                    </li>
+                                    <li class="feature-point">
+                                        <div class="tick-icon">
+                                            <i class="ri-check-line"></i>
+                                        </div>
+                                        <p class="pera">Lorem ipsum dolor sit amet</p>
+                                    </li>
+                                    <li class="feature-point disable">
+                                        <div class="tick-icon">
+                                            <i class="ri-check-line"></i>
+                                        </div>
+                                        <p class="pera">Lorem ipsum dolor</p>
+                                    </li>
+                                    <li class="feature-point disable">
+                                        <div class="tick-icon">
+                                            <i class="ri-check-line"></i>
+                                        </div>
+                                        <p class="pera">Online booking engine</p>
+                                    </li>
+                                    <li class="feature-point disable">
+                                        <div class="tick-icon">
+                                            <i class="ri-check-line"></i>
+                                        </div>
+                                        <p class="pera">Business Card Scanner</p>
+                                    </li>
+                                </ul>
+                                <div class="button-section">
+                                    <a href="payment.html">
+                                        <div class="btn-primary-icon-outline">
+                                            <span class="pera">Try Now</span>
+                                            <i class="ri-arrow-right-up-line"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="imp-note">
+                                    <p class="pera">Per month +2% per online Booking</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6">
+                            <div class="price-card h-calc wow fadeInUp" data-wow-delay="0.0s">
+                                <div class="price-header">
+                                    <div class="d-flex gap-7 mb-2">
+                                        <h4 class="title">Pro</h4>
+                                        <div class="price-badge">popular</div>
+                                    </div>
+                                    <p class="pera">Best for personal and basic needs</p>
+                                </div>
+                                <div class="price-tag-section">
+                                    <div class="price-tag">
+                                        <h4 class="title">$77</h4>
+                                        <p class="pera">One-time payment</p>
+                                    </div>
+                                </div>
+                                <ul class="feature-points">
+                                    <li class="feature-point">
+                                        <div class="tick-icon">
+                                            <i class="ri-check-line"></i>
+                                        </div>
+                                        <p class="pera">20+ Partners</p>
+                                    </li>
+                                    <li class="feature-point">
+                                        <div class="tick-icon">
+                                            <i class="ri-check-line"></i>
+                                        </div>
+                                        <p class="pera">Mass Messaging</p>
+                                    </li>
+                                    <li class="feature-point">
+                                        <div class="tick-icon">
+                                            <i class="ri-check-line"></i>
+                                        </div>
+                                        <p class="pera">Lorem ipsum dolor sit amet</p>
+                                    </li>
+                                    <li class="feature-point">
+                                        <div class="tick-icon">
+                                            <i class="ri-check-line"></i>
+                                        </div>
+                                        <p class="pera">Lorem ipsum dolor</p>
+                                    </li>
+                                    <li class="feature-point">
+                                        <div class="tick-icon">
+                                            <i class="ri-check-line"></i>
+                                        </div>
+                                        <p class="pera">Online booking engine</p>
+                                    </li>
+                                    <li class="feature-point disable">
+                                        <div class="tick-icon">
+                                            <i class="ri-check-line"></i>
+                                        </div>
+                                        <p class="pera">Business Card Scanner</p>
+                                    </li>
+                                </ul>
+                                <div class="button-section">
+                                    <a href="payment.html">
+                                        <div class="btn-primary-icon-outline">
+                                            <span class="pera">Try Now</span>
+                                            <i class="ri-arrow-right-up-line"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="imp-note">
+                                    <p class="pera">Per month +1.9% per online Booking</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6">
+                            <div class="price-card h-calc wow fadeInUp" data-wow-delay="0.0s">
+                                <div class="price-header">
+                                    <div class="d-flex gap-7 mb-2">
+                                        <h4 class="title">Custom</h4>
+                                        <div class="price-badge d-none">popular</div>
+                                    </div>
+                                    <p class="pera">Best for personal and basic needs</p>
+                                </div>
+                                <ul class="feature-points">
+                                    <li class="feature-point">
+                                        <div class="tick-icon">
+                                            <i class="ri-check-line"></i>
+                                        </div>
+                                        <p class="pera">Mass Messaging</p>
+                                    </li>
+                                    <li class="feature-point">
+                                        <div class="tick-icon">
+                                            <i class="ri-check-line"></i>
+                                        </div>
+                                        <p class="pera">Lorem ipsum dolor sit amet</p>
+                                    </li>
+                                    <li class="feature-point">
+                                        <div class="tick-icon">
+                                            <i class="ri-check-line"></i>
+                                        </div>
+                                        <p class="pera">Unlimited Everything</p>
+                                    </li>
+                                    <li class="feature-point">
+                                        <div class="tick-icon">
+                                            <i class="ri-check-line"></i>
+                                        </div>
+                                        <p class="pera">Lorem ipsum dolor</p>
+                                    </li>
+                                    <li class="feature-point">
+                                        <div class="tick-icon">
+                                            <i class="ri-check-line"></i>
+                                        </div>
+                                        <p class="pera">Lorem ipsum dolor</p>
+                                    </li>
+                                    <li class="feature-point">
+                                        <div class="tick-icon">
+                                            <i class="ri-check-line"></i>
+                                        </div>
+                                        <p class="pera">Lorem ipsum dolor</p>
+                                    </li>
+                                    <li class="feature-point">
+                                        <div class="tick-icon">
+                                            <i class="ri-check-line"></i>
+                                        </div>
+                                        <p class="pera">Online booking engine</p>
+                                    </li>
+                                    <li class="feature-point">
+                                        <div class="tick-icon">
+                                            <i class="ri-check-line"></i>
+                                        </div>
+                                        <p class="pera">Business Card Scanner</p>
+                                    </li>
+                                </ul>
+                                <div class="button-section">
+                                    <a href="payment.html">
+                                        <div class="btn-primary-icon-outline">
+                                            <span class="pera">Contact</span>
+                                            <i class="ri-arrow-right-up-line"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="imp-note">
+                                    <p class="pera">Please contact anytime</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!--/ End of Pricing -->
+
+        <!-- Brand S t a r t -->
+        <!-- <section class="brand-area">
+            <div class="container">
+                <div class="border-section-title">
+                    <h4 class="title">We’ve been mentioned in Below Brands</h4>
+                </div>
+                <div class="swiper brandSwiper-active">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="assets/images/brand/brand-1.jpeg" alt="travello">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/images/brand/brand-2.jpg" alt="travello">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/images/brand/brand-3.jpg" alt="travello">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/images/brand/brand-4.png" alt="travello">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/images/brand/brand-5.png" alt="travello">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/images/brand/brand-1.jpeg" alt="travello">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/images/brand/brand-2.jpg" alt="travello">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!--/ End of Brand -->
+
+        <!-- Testimonial S t a r t -->
+        <!-- <section class="testimonial-area section-padding">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-7 col-lg-7">
+                        <div class="section-title mx-430 mx-auto text-center">
+                            <span class="highlights">Testimonial</span>
+                            <h4 class="title">
+                                What People Have Said About Our Service
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-wrap gap-24">
+                <div class="swiper bulletLeftSwiper-active">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide testimonial-card">
+                            <div class="testimonial-header">
+                                <div class="user-img">
+                                    <img src="assets/images/testimonial/testimonial-1.jpeg" alt="travello">
+                                </div>
+                                <div class="user-info">
+                                    <p class="name">David Malan</p>
+                                    <p class="designation">Traveler</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-body">
+                                <p class="pera">
+                                    Lorem ipsum dolor sit amet consectetur. Et amet nulla in
+                                    adipiscing. Donec tincidunt dui vel adipiscing sit turpis
+                                    neque at cursus. Dignissim scelerisque mattis ultricies
+                                    vitae.
+                                </p>
+                            </div>
+                            <div class="testimonial-footer">
+                                <div class="logo">
+                                    <img src="assets/images/logo/logo.png" alt="travello" class="changeLogo">
+                                </div>
+                                <p class="date">Jan 20, 2025</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide testimonial-card">
+                            <div class="testimonial-header">
+                                <div class="user-img">
+                                    <img src="assets/images/testimonial/testimonial-1.jpeg" alt="travello">
+                                </div>
+                                <div class="user-info">
+                                    <p class="name">David Malan</p>
+                                    <p class="designation">Traveler</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-body">
+                                <p class="pera">
+                                    Lorem ipsum dolor sit amet consectetur. Et amet nulla in
+                                    adipiscing. Donec tincidunt dui vel adipiscing sit turpis
+                                    neque at cursus. Dignissim scelerisque mattis ultricies
+                                    vitae.
+                                </p>
+                            </div>
+                            <div class="testimonial-footer">
+                                <div class="logo">
+                                    <img src="assets/images/logo/logo.png" alt="travello" class="changeLogo">
+                                </div>
+                                <p class="date">Jan 20, 2025</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide testimonial-card">
+                            <div class="testimonial-header">
+                                <div class="user-img">
+                                    <img src="assets/images/testimonial/testimonial-1.jpeg" alt="travello">
+                                </div>
+                                <div class="user-info">
+                                    <p class="name">David Malan</p>
+                                    <p class="designation">Traveler</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-body">
+                                <p class="pera">
+                                    Lorem ipsum dolor sit amet consectetur. Et amet nulla in
+                                    adipiscing. Donec tincidunt dui vel adipiscing sit turpis
+                                    neque at cursus. Dignissim scelerisque mattis ultricies
+                                    vitae.
+                                </p>
+                            </div>
+                            <div class="testimonial-footer">
+                                <div class="logo">
+                                    <img src="assets/images/logo/logo.png" alt="travello" class="changeLogo">
+                                </div>
+                                <p class="date">Jan 20, 2025</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide testimonial-card">
+                            <div class="testimonial-header">
+                                <div class="user-img">
+                                    <img src="assets/images/testimonial/testimonial-1.jpeg" alt="travello">
+                                </div>
+                                <div class="user-info">
+                                    <p class="name">David Malan</p>
+                                    <p class="designation">Traveler</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-body">
+                                <p class="pera">
+                                    Lorem ipsum dolor sit amet consectetur. Et amet nulla in
+                                    adipiscing. Donec tincidunt dui vel adipiscing sit turpis
+                                    neque at cursus. Dignissim scelerisque mattis ultricies
+                                    vitae.
+                                </p>
+                            </div>
+                            <div class="testimonial-footer">
+                                <div class="logo">
+                                    <img src="assets/images/logo/logo.png" alt="travello" class="changeLogo">
+                                </div>
+                                <p class="date">Jan 20, 2025</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide testimonial-card">
+                            <div class="testimonial-header">
+                                <div class="user-img">
+                                    <img src="assets/images/testimonial/testimonial-1.jpeg" alt="travello">
+                                </div>
+                                <div class="user-info">
+                                    <p class="name">David Malan</p>
+                                    <p class="designation">Traveler</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-body">
+                                <p class="pera">
+                                    Lorem ipsum dolor sit amet consectetur. Et amet nulla in
+                                    adipiscing. Donec tincidunt dui vel adipiscing sit turpis
+                                    neque at cursus. Dignissim scelerisque mattis ultricies
+                                    vitae.
+                                </p>
+                            </div>
+                            <div class="testimonial-footer">
+                                <div class="logo">
+                                    <img src="assets/images/logo/logo.png" alt="travello" class="changeLogo">
+                                </div>
+                                <p class="date">Jan 20, 2025</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide testimonial-card">
+                            <div class="testimonial-header">
+                                <div class="user-img">
+                                    <img src="assets/images/testimonial/testimonial-1.jpeg" alt="travello">
+                                </div>
+                                <div class="user-info">
+                                    <p class="name">David Malan</p>
+                                    <p class="designation">Traveler</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-body">
+                                <p class="pera">
+                                    Lorem ipsum dolor sit amet consectetur. Et amet nulla in
+                                    adipiscing. Donec tincidunt dui vel adipiscing sit turpis
+                                    neque at cursus. Dignissim scelerisque mattis ultricies
+                                    vitae.
+                                </p>
+                            </div>
+                            <div class="testimonial-footer">
+                                <div class="logo">
+                                    <img src="assets/images/logo/logo.png" alt="travello" class="changeLogo">
+                                </div>
+                                <p class="date">Jan 20, 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper bulletRightSwiper-active">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide testimonial-card">
+                            <div class="testimonial-header">
+                                <div class="user-img">
+                                    <img src="assets/images/testimonial/testimonial-1.jpeg" alt="travello">
+                                </div>
+                                <div class="user-info">
+                                    <p class="name">David Malan</p>
+                                    <p class="designation">Traveler</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-body">
+                                <p class="pera">
+                                    Lorem ipsum dolor sit amet consectetur. Et amet nulla in
+                                    adipiscing. Donec tincidunt dui vel adipiscing sit turpis
+                                    neque at cursus. Dignissim scelerisque mattis ultricies
+                                    vitae.
+                                </p>
+                            </div>
+                            <div class="testimonial-footer">
+                                <div class="logo">
+                                    <img src="assets/images/logo/logo.png" alt="travello" class="changeLogo">
+                                </div>
+                                <p class="date">Jan 20, 2025</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide testimonial-card">
+                            <div class="testimonial-header">
+                                <div class="user-img">
+                                    <img src="assets/images/testimonial/testimonial-1.jpeg" alt="travello">
+                                </div>
+                                <div class="user-info">
+                                    <p class="name">David Malan</p>
+                                    <p class="designation">Traveler</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-body">
+                                <p class="pera">
+                                    Lorem ipsum dolor sit amet consectetur. Et amet nulla in
+                                    adipiscing. Donec tincidunt dui vel adipiscing sit turpis
+                                    neque at cursus. Dignissim scelerisque mattis ultricies
+                                    vitae.
+                                </p>
+                            </div>
+                            <div class="testimonial-footer">
+                                <div class="logo">
+                                    <img src="assets/images/logo/logo.png" alt="travello" class="changeLogo">
+                                </div>
+                                <p class="date">Jan 20, 2025</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide testimonial-card">
+                            <div class="testimonial-header">
+                                <div class="user-img">
+                                    <img src="assets/images/testimonial/testimonial-1.jpeg" alt="travello">
+                                </div>
+                                <div class="user-info">
+                                    <p class="name">David Malan</p>
+                                    <p class="designation">Traveler</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-body">
+                                <p class="pera">
+                                    Lorem ipsum dolor sit amet consectetur. Et amet nulla in
+                                    adipiscing. Donec tincidunt dui vel adipiscing sit turpis
+                                    neque at cursus. Dignissim scelerisque mattis ultricies
+                                    vitae.
+                                </p>
+                            </div>
+                            <div class="testimonial-footer">
+                                <div class="logo">
+                                    <img src="assets/images/logo/logo.png" alt="travello" class="changeLogo">
+                                </div>
+                                <p class="date">Jan 20, 2025</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide testimonial-card">
+                            <div class="testimonial-header">
+                                <div class="user-img">
+                                    <img src="assets/images/testimonial/testimonial-1.jpeg" alt="travello">
+                                </div>
+                                <div class="user-info">
+                                    <p class="name">David Malan</p>
+                                    <p class="designation">Traveler</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-body">
+                                <p class="pera">
+                                    Lorem ipsum dolor sit amet consectetur. Et amet nulla in
+                                    adipiscing. Donec tincidunt dui vel adipiscing sit turpis
+                                    neque at cursus. Dignissim scelerisque mattis ultricies
+                                    vitae.
+                                </p>
+                            </div>
+                            <div class="testimonial-footer">
+                                <div class="logo">
+                                    <img src="assets/images/logo/logo.png" alt="travello" class="changeLogo">
+                                </div>
+                                <p class="date">Jan 20, 2025</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide testimonial-card">
+                            <div class="testimonial-header">
+                                <div class="user-img">
+                                    <img src="assets/images/testimonial/testimonial-1.jpeg" alt="travello">
+                                </div>
+                                <div class="user-info">
+                                    <p class="name">David Malan</p>
+                                    <p class="designation">Traveler</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-body">
+                                <p class="pera">
+                                    Lorem ipsum dolor sit amet consectetur. Et amet nulla in
+                                    adipiscing. Donec tincidunt dui vel adipiscing sit turpis
+                                    neque at cursus. Dignissim scelerisque mattis ultricies
+                                    vitae.
+                                </p>
+                            </div>
+                            <div class="testimonial-footer">
+                                <div class="logo">
+                                    <img src="assets/images/logo/logo.png" alt="travello" class="changeLogo">
+                                </div>
+                                <p class="date">Jan 20, 2025</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide testimonial-card">
+                            <div class="testimonial-header">
+                                <div class="user-img">
+                                    <img src="assets/images/testimonial/testimonial-1.jpeg" alt="travello">
+                                </div>
+                                <div class="user-info">
+                                    <p class="name">David Malan</p>
+                                    <p class="designation">Traveler</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-body">
+                                <p class="pera">
+                                    Lorem ipsum dolor sit amet consectetur. Et amet nulla in
+                                    adipiscing. Donec tincidunt dui vel adipiscing sit turpis
+                                    neque at cursus. Dignissim scelerisque mattis ultricies
+                                    vitae.
+                                </p>
+                            </div>
+                            <div class="testimonial-footer">
+                                <div class="logo">
+                                    <img src="assets/images/logo/logo.png" alt="travello" class="changeLogo">
+                                </div>
+                                <p class="date">Jan 20, 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="section-button d-inline-block">
+                            <a href="javascript:void(0)">
+                                <div class="btn-primary-icon-sm">
+                                    <p class="pera">All Customers Say</p>
+                                    <i class="ri-arrow-right-up-line"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!--/ End of Testimonial -->
+
+        <!-- Special area S t a r t -->
+        <!-- <section class="special-area bottom-padding1">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-7 col-lg-7">
+                        <div class="section-title mx-430 mx-auto text-center">
+                            <span class="highlights fancy-font font-400">special offers</span>
+                            <h4 class="title">
+                                Winter Our Big Offers to Inspire You
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-6 col-md-6">
+                        <a href="tour-list.html" class="offer-banner imgEffect4 wow fadeInLeft" data-wow-delay="0.0s">
+                            <img src="assets/images/gallery/offercard-1.jpg" alt="travello">
+                            <div class="offer-content">
+                                <p class="highlights-text">Save up to</p>
+                                <h4 class="title">50%</h4>
+                                <p class="pera">Let’s Explore The World</p>
+                                <div class="location">
+                                    <i class="ri-map-pin-line"></i>
+                                    <p class="name">Bangkok, Thailand</p>
+                                </div>
+                                <div class="btn-secondary-sm radius-30"> Booking Now </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <a href="tour-list.html" class="offer-banner imgEffect4 wow fadeInLeft" data-wow-delay="0.0s">
+                            <img src="assets/images/gallery/offercard-2.jpg" alt="travello">
+                            <div class="offer-content-two">
+                                <h4 class="title">Nearby Hotel</h4>
+                                <p class="pera">
+                                    Up to <span class="highlights-text">50%</span> Off The Best
+                                    Hotels Near
+                                </p>
+                                <div class="location">
+                                    <i class="ri-map-pin-line"></i>
+                                    <p class="name">Bangkok, Thailand</p>
+                                </div>
+                                <div class="btn-secondary-sm radius-30"> Booking Now </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!--/ End-of special-->
+    </main>
+
+    <!-- Footer S t a r t -->
+    <footer>
+        <div class="footer-wrapper footer-bg">
+            <div class="container">
+                <div class="footer-area">
+                    <div class="row g-4">
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="single-footer-caption">
+                                <div class="footer-tittle">
+                                    <h4 class="title">Quick Links</h4>
+                                    <ul class="listing">
+                                        <li class="single-lsit"><a href="index-two.html">Start</a></li>
+                                        <li class="single-lsit">
+                                            <a href="about.html">Über Mich</a>
+                                        </li>
+                                        <li class="single-lsit">
+                                            <a href="contact.html">Kontakt</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="single-footer-caption">
+                                <div class="footer-tittle">
+                                    <h4 class="title">Kontakt</h4>
+                                    <ul class="listing">
+                                        <li class="single-lsit">
+                                            <a target="_blank" href="https://maps.app.goo.gl/8gj9S7vPLsZW3FAH6"
+                                                class="mb-20 d-block">Kornish Str.147,
+                                                Altstadt, Hurghada 195000</a>
+                                        </li>
+                                        <li class="single-lsit">
+                                            <a target="_blank" href="https://wa.me/+021067798590">
+                                                <div class="d-flex gap-12">
+                                                    <i class="fa-brands fa-whatsapp"></i> +20 106 779 8590
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="single-lsit">
+                                            <a target="_blank" href="mailto:m.hasballa1984@gmail.com">
+                                                <div class="d-flex gap-12">
+                                                    <i class="ri-mail-line"></i> m.hasballa1984@gmail.com
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- footer-bottom area -->
+            <div class="footer-bottom-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="d-flex justify-content-between gap-14 flex-wrap">
+                                <p class="pera">
+                                    © <span class="current-year">2023</span> initTheme. All rights
+                                    reserved
+                                </p>
+                                <p class="pera">Powered by @Ausflüge mit Mahmoud</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/ End-of Footer -->
+
+    <!-- Scroll Up  -->
+    <div class="progressParent" id="back-top">
+        <svg class="backCircle svg-inner" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- Add an search-overlay element -->
+    <div class="search-overlay"></div>
+    <!-- jquery-->
+    <script src="assets/js/jquery-3.7.0.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap-5.3.0.min.js"></script>
+    <!-- Plugin -->
+    <script src="assets/js/plugin.js"></script>
+    <!-- Main js-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
