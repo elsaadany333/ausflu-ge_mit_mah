@@ -1,14 +1,14 @@
 .float {
   position: fixed;
-  width: 60px;
+  width: 260px;
   height: 60px;
-  bottom: 400px;
+  bottom: 150px;
   right: 20px;
   background-color: #25d366;
   color: #FFF;
   border-radius: 50px;
   text-align: center;
-  font-size: 30px;
+  font-size: 22px;
   box-shadow: 2px 2px 3px #999;
   z-index: 100;
 }
@@ -16,6 +16,8 @@
 .my-float {
   margin-top: 16px;
 }
+
+
 
 /*----------------------------------------------
     Index Of Script
@@ -67,6 +69,7 @@
   --dark: #28292c;
   --info: #0dcaf0;
   --body: #fff;
+  --social: #337C6F;
   --primary-color: #017b6e;
   --secondary-color: #f26f55;
   --tertiary-color: #39a1f0;
@@ -107,6 +110,7 @@
   --info: #0dcaf0;
   --body: #0D1117;
   --body: #12151e;
+  --social: #DAEDEF;
   --primary-color: #222839;
   --secondary-color: #f26f55;
   --tertiary-color: #39a1f0;
@@ -28400,6 +28404,10 @@ button.applyBtn.btn.btn-sm.btn-primary {
 
 .islam {
   color: var(--body);
+}
+
+.social-icon {
+  color: var(--social);
 }
 
 @media (max-width: 991px) {
