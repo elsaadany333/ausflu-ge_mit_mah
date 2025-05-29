@@ -1,1 +1,1 @@
-https://ausfluegemitmahmoud.de/index.html
+https://ausfluegemitmahmoud.de
